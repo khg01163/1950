@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Walker",
+    "movementType":"Land"
+  },
+  {
+    "name":"Artillerist",
+    "movementType":"Land"
+  },
+  {
+    "name":"Armor",
+    "movementType":"Land"
+  },
+  {
+    "name":"Navy",
+    "movementType":"Land"
+  },
+  {
+    "name":"AirForce",
+    "movementType":"Land"
+  }
+]
