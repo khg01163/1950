@@ -1,0 +1,49 @@
+[
+  {
+		"name": "Great War Infantry",//보병
+		"unitType": "Walker",
+		"movement": 3,
+    "range": 1,
+		"strength": 20,
+    "rangedStrength": 20,
+		"cost": 320,
+    "uniques":[],
+    "promotions":["Rifle"],
+		"attackSound": "shot"
+	},
+  {
+		"name": "Infantry",//돌격병
+		"unitType": "Walker",
+		"movement": 3,
+    "range": 1,
+		"strength": 20,
+    "rangedStrength": 20,
+		"cost": 375,
+		"uniques":[],
+    "promotions":["Assaulter"],
+		"attackSound": "shot"
+	},
+  {
+		"name": "Janissary",//박격포병
+		"unitType": "Walker",
+		"movement": 3,
+    "range": 1,
+		"strength": 20,
+    "rangedStrength": 20,
+		"cost": 150,
+		"promotions": ["Mortar"],
+		"attackSound": "cannon"
+	},
+  {
+		"name": "Machine Gun", //Bar
+		"unitType": "Walker",
+		"range": 1,
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 350,
+    "uniques":[],
+    "promotions":["BarMachineGun"],
+		"attackSound": "machinegun"
+	}
+]
