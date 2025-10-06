@@ -6,7 +6,7 @@
     "range": 1,
 		"strength": 20,
     "rangedStrength": 20,
-		"cost": 320,
+		"cost": 300,
     "uniques":[],
     "promotions":["Rifle"],
 		"attackSound": "shot"
@@ -18,7 +18,7 @@
     "range": 1,
 		"strength": 20,
     "rangedStrength": 20,
-		"cost": 375,
+		"cost": 300,
 		"uniques":[],
     "promotions":["Assaulter"],
 		"attackSound": "shot"
@@ -30,20 +30,81 @@
     "range": 1,
 		"strength": 20,
     "rangedStrength": 20,
-		"cost": 150,
+		"cost": 500,
 		"promotions": ["Mortar"],
 		"attackSound": "cannon"
 	},
   {
 		"name": "Machine Gun", //Bar
 		"unitType": "Walker",
-		"range": 1,
+		"range": 2,
 		"movement": 3,
 		"strength": 20,
 		"rangedStrength": 20,
 		"cost": 350,
-    "uniques":[],
+    "uniques":[
+		"[+2] additional attacks per turn",
+	],
     "promotions":["BarMachineGun"],
 		"attackSound": "machinegun"
-	}
+	},
+	{
+		"name": "Anti-Aircraft Gun",//중기관총
+		"unitType": "Walker",
+		"movement": 2,
+		"range": 10,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 1000,
+		"uniques": [
+			"[+4] additional attacks per turn",
+			"Can build [Fort] improvements on tiles"
+		],
+		"promotions": ["FixedMachineGun"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Cannon",//76미리 대전차포
+		"unitType": "Cannon",
+		"movement": 2,
+		"range": 4,
+		"strength": 14,
+		"rangedStrength": 20,
+		"cost": 600,
+		"uniques": ["Must set up to ranged attack"],
+		"attackSound": "cannon"
+	},
+	{//90미리 대전차포
+		"name": "Anti-Tank Gun",
+		"unitType": "Cannon",
+		"movement": 2,
+		"strength": 50,
+		"cost": 1000,
+		"uniques": [],
+		"attackSound": "machinegun"
+	},
+	{//76주포 전차
+		"name": "Landship",
+		"unitType": "Cannon",
+		"movement": 5,
+		"range": 4,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 1200,
+		"uniques": ["Can move after attacking"],
+		"attackSound": "tankshot"
+	},
+	{//중전차
+		"name": "Tank",
+		"unitType": "Armored",
+		"movement": 4,
+		"range": 4,
+		"strength": 70,
+		"rangedStrength": 70,
+		"cost": 1800,
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking"],
+		"attackSound": "tankshot"
+	},
+	
 ]
