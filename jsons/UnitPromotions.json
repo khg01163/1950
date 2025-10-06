@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Truck",
+		"uniques": [],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "Rifle",
+		"uniques": ["[+30]% Strength <when attacking>"],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "Assaulter",
+		"uniques": [
+      "[+20]% Strength",
+      "[+1] Movement"
+    ],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "Mortar",
+		"uniques": [
+      "[+2] Range",
+      "[-1] Movement",
+      "[+80]% Strength <vs [Walker] units> <when attacking>"
+    ],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "BarMachineGun",
+		"uniques": [
+    ],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "FixedMachineGun",
+		"uniques": []
+  },
+  {
+    "name": "Cannon",
+		"uniques": []
+  },
+  {
+    "name": "Howitzer",
+		"uniques": []
+  },
+  {
+    "name": "SteelPlate",
+		"uniques": []
+  },
+  {
+    "name": "BattleShip",
+		"uniques": []
+  },
+  {
+    "name": "LandingShip",
+		"uniques": []
+  },
+  {
+    "name": "AirFighter",
+		"uniques": []
+  },
+  {
+    "name": "AirBomber",
+		"uniques": []
+  },
+  {
+    "name": "AirAttacker",
+		"uniques": []
+  },
+  {
+    "name": "CarryingHelicopter",
+		"uniques": []
+  },
+
+
+
+  {
+    "name": "Position I",
+		"prerequisites": [
+      "Rifle", 
+      "BarMachineGun", 
+      "FixedMachineGun", 
+      "Mortar",
+      "Assaulter"
+    ],
+		"uniques": [
+      "Can build [Fort] improvements on tiles"
+    ],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "Position II",
+		"prerequisites": [
+      "Position I"
+    ],
+		"uniques": [
+      "[+20] %Strength <vs [Walker] units> <when defending>",
+    ],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "Position III",
+		"prerequisites": ["Position II"],
+		"uniques": [
+      "[+35] %Strength <vs [Artillerist] units> <when defending>",
+    ],
+		"unitTypes": ["Walker"]
+  },
+
+  {
+    "name": "ShotTraing I",
+		"prerequisites": [
+      "Rifle", 
+      "BarMachineGun", 
+      "FixedMachineGun", 
+      "Mortar",
+      "Assaulter"
+    ],
+		"uniques": [
+      "[+20] %Strength <when attacking>"
+    ],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "ShotTraining II",
+		"prerequisites": ["ShotTraining I"],
+		"uniques": ["Can move after attacking"],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "ShotTraining III",
+		"prerequisites": ["ShotTraining II"],
+		"uniques": ["[+1] addtional attacks per turn"],
+		"unitTypes": ["Walker"]
+  },
+  
+  {
+    "name": "Experience I",
+		"prerequisites": [
+      "Rifle", 
+      "BarMachineGun", 
+      "FixedMachineGun", 
+      "Mortar",
+      "Assaulter"
+    ],
+		"uniques": [
+      "[+50]% Strength <when defending> <when fighting in [Hill] tiles>"
+    ],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "Experience II",
+		"prerequisites": ["Experience I"],
+		"uniques": [
+      "[+20]% Strength <when fighting in [Grassland] tiles> <when defending>"
+    ],
+		"unitTypes": ["Walker"]
+  },
+  {
+    "name": "Experience III",
+		"prerequisites": ["Experience II"],
+		"uniques": [
+      "[+33]% evasion"
+    ],
+		"unitTypes": ["Walker"]
+  },
+
+
+  
+]
