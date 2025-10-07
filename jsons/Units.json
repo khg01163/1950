@@ -228,7 +228,7 @@
 	},
 	{
 		"name": "Cannon",
-		"unitType": "Altillerist",
+		"unitType": "Artillerist",
 		"movement": 2,
 		"range": 16,
 		"strength": 14,
