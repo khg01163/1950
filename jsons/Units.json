@@ -522,5 +522,64 @@
 		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Dynamite",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cossack",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Russia",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Dynamite",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Cossack] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hussar",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Austria",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Dynamite",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight"],
+		"promotions": ["[Hussar] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
 	}
 ]
