@@ -189,4 +189,47 @@
 		"promotions":["LandingShip"],
 		"attackSound": "shipguns"
 	},
+	{
+		"name": "Fighter",
+		"unitType": "AirForce",
+		"movement": 12,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 1,
+		"cost": 2300,
+		"requiredResource": "Oil",
+		"uniques": [
+			"[+150]% Strength <vs [Bomber] units>", 
+			"[+150]% Strength <vs [Helicopter] units>"
+		],
+		"promotions":["AirFighter"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Bomber",
+		"unitType": "AirForce",
+		"movement": 10,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 1,
+		"cost": 2700,
+		"requiredResource": "Oil",
+		"promotions":["AirBomber"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Zero",
+		"unitType": "AirForce",
+		"movement": 10,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 1,
+		"cost": 2300,
+		"uniques": [
+			"[+150]% Strength <vs [Bomber] units>", 
+			"[+150]% Strength <vs [Helicopter] units>"
+		],
+		"promotions": ["AirAttacker"],
+		"attackSound": "machinegun"
+	}
 ]
