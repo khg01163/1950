@@ -147,7 +147,7 @@
 			"[-95]% Strength <vs [Navy] units> <when attacking>",
 			"[-90]% Strength <vs [AirForce] units> <when attacking>"
 		],
-		"promotions":["Cannon"],
+		"promotions":["57mm"],
 		"attackSound": "shot"
 	},
 	{//90미리 대전차포
@@ -172,7 +172,7 @@
 			"[-90]% Strength <vs [Navy] units> <when attacking>",
 			"[-100]% Strength <vs [AirForce]> <when attacking>"
 		],
-		"promotions":["Cannon"],
+		"promotions":["90mm"],
 		"attackSound": "machinegun"
 	},
 	{//76주포 전차
@@ -196,7 +196,7 @@
 			"[-80]% Strength <vs [Navy] units> <when attacking>",
 			"[-100]% Strength <vs [AirForce]> <when attacking>"
 		],
-		"promotions":["Cannon","SteelPlate"],
+		"promotions":["SteelPlate"],
 		"attackSound": "tankshot"
 	},
 	{//중전차
@@ -223,7 +223,7 @@
 			"[-60]% Strength <vs [Navy] units> <when attacking>",
 			"[-100]% Strength <vs [AirForce]> <when attacking>"
 		],
-		"promotions":["SteelPlate","Cannon"],
+		"promotions":["SteelPlate"],
 		"attackSound": "tankshot"
 	},
 	{
