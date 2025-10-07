@@ -63,40 +63,44 @@
 		"promotions": ["FixedMachineGun"],
 		"attackSound": "machinegun"
 	},
-	{
-		"name": "Cannon",//76미리 대전차포
-		"unitType": "Cannon",
-		"movement": 2,
-		"range": 4,
-		"strength": 14,
-		"rangedStrength": 20,
+	{//56미리 대전차
+		"name": "Musketman",
+		"unitType": "Artillerist",
+		"movement": 3,
+		"range": 3,
+		"strength": 24,
+		"rangedStrength": 24,
 		"cost": 600,
-		"uniques": ["Must set up to ranged attack"],
-		"attackSound": "cannon"
+		"promotions":["Cannon"],
+		"attackSound": "shot"
 	},
 	{//90미리 대전차포
 		"name": "Anti-Tank Gun",
-		"unitType": "Cannon",
+		"unitType": "Artillerist",
+		"range": 4,
 		"movement": 2,
 		"strength": 50,
+		"rangedStrength": 50,
 		"cost": 1000,
 		"uniques": [],
+		"promotions":["Cannon"],
 		"attackSound": "machinegun"
 	},
 	{//76주포 전차
 		"name": "Landship",
-		"unitType": "Cannon",
+		"unitType": "Armor",
 		"movement": 5,
 		"range": 4,
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 1200,
 		"uniques": ["Can move after attacking"],
+		"promotions":["Cannon","SteelPlate"],
 		"attackSound": "tankshot"
 	},
 	{//중전차
 		"name": "Tank",
-		"unitType": "Armored",
+		"unitType": "Armor",
 		"movement": 4,
 		"range": 4,
 		"strength": 70,
@@ -104,6 +108,7 @@
 		"cost": 1800,
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking"],
+		"promotions":["SteelPlate","Cannon"],
 		"attackSound": "tankshot"
 	},
 	
