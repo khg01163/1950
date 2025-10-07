@@ -185,7 +185,7 @@
 		"strength": 60,
 		"rangedStrength": 100,
 		"cost": 1300,
-		"requiredResource":["Aluminium:2"]
+		"requiredResource":["Aluminium:2"],
 		"uniques": [
 			"Can move after attacking",
 			"[+900]% Strength <vs Rifle> <when attacking>",
