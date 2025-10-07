@@ -201,7 +201,7 @@
 		"rangedStrength": 70,
 		"cost": 1020,
 		"uniques": [],
-		"promotions":["Indirect Fire","SteelPlate","Howitzer"],
+		"promotions":["Indirect Fire","SteelPlate","MH"],
 		"attackSound": "tankshot"
 	},
 	{
