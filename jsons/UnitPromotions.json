@@ -32,9 +32,13 @@
 		"uniques": []
   },
   {
-    "name": "Cannon",
+    "name": "57mm",
 		"uniques": []
   },
+	{
+    "name": "90mm",
+		"uniques": []
+	},
   {
     "name": "Howitzer",
 		"uniques": []
