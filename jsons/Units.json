@@ -105,7 +105,7 @@
 		"strength": 30,
 		"rangedStrength": 40,
 		"cost": 380,
-		"requiredResource":["Iron:3"],
+		"requiredResource":"Iron:3",
 		"uniques": [
 			"[+2] additional attacks per turn",
 			"Can build [Fort] improvements on tiles",
@@ -160,7 +160,7 @@
 		"strength": 50,
 		"rangedStrength": 140,
 		"cost": 740,
-		"requiredResource":["Coal:2"],
+		"requiredResource":"Coal:2",
 		"uniques": [
 			"[+1300]% Strength <vs Rifle> <when attacking>",
 			"[+1100]% Strength <vs Assaulter> <when attacking>",
@@ -185,7 +185,7 @@
 		"strength": 60,
 		"rangedStrength": 100,
 		"cost": 1300,
-		"requiredResource":["Aluminum:2"],
+		"requiredResource":"Aluminum:2",
 		"uniques": [
 			"Can move after attacking",
 			"[+900]% Strength <vs Rifle> <when attacking>",
@@ -210,7 +210,7 @@
 		"strength": 70,
 		"rangedStrength": 150,
 		"cost": 1300,
-		"requiredResource": ["Aluminum:4"],
+		"requiredResource": "Aluminum:4",
 		"uniques": [
 			"Can move after attacking",
 			"[+1400]% Strength <vs Rifle> <when attacking>",
@@ -237,7 +237,7 @@
 		"strength": 14,
 		"rangedStrength": 70,
 		"cost": 720,
-		"requiredResource":["Iron:2"],
+		"requiredResource":"Iron:2",
 		"uniques": [
 			"Must set up to ranged attack",
 			"[+600]% Strength <vs Rifle> <when attacking>",
@@ -263,7 +263,7 @@
 		"rangedStrength": 200,
 		"range": 20,
 		"cost": 720,
-		"requiredResource":["Iron:5"],
+		"requiredResource":"Iron:5",
 		"uniques": [
 			"Must set up to ranged attack",
 			"[+1900]% Strength <vs Rifle> <when attacking>",
@@ -292,7 +292,7 @@
 		"strength": 70,
 		"rangedStrength": 70,
 		"cost": 1020,
-		"requiredResource":["Aluminum:3"],
+		"requiredResource":"Aluminum:3",
 		"uniques": [
 			"[+1100]% Strength <vs Rifle> <when attacking>",
 			"[+1000]% Strength <vs Assaulter> <when attacking>",
@@ -333,7 +333,7 @@
 		"rangedStrength": 450,
 		"strength": 55,
 		"cost": 3000,
-		"requiredResource":["Oil:5"],
+		"requiredResource":"Oil:5",
 		"uniques": [
 			"Withdraws before melee combat <with [80]% chance>",
 			"[+350]% Strength <vs Rifle> <when attacking>",
@@ -360,7 +360,7 @@
 		"rangedStrength": 80,
 		"range": 1,
 		"cost": 1100,
-		"requiredResource": ["Oil:2"],
+		"requiredResource": "Oil:2",
 		"uniques": [
 			"[-20]% Strength <vs Rifle> <when attacking>",
 			"[-20]% Strength <vs Assaulter> <when attacking>",
@@ -387,7 +387,7 @@
 		"rangedStrength": 200,
 		"range": 1,
 		"cost": 1700,
-		"requiredResource": ["Oil:4"],
+		"requiredResource": "Oil:4",
 		"uniques":[
 			"[+220]% Strength <vs Rifle> <when attacking>",
 			"[+200]% Strength <vs Assaulter> <when attacking>",
@@ -414,7 +414,7 @@
 		"rangedStrength": 130,
 		"range": 1,
 		"cost": 1300,
-		"requiredResource":["Oil:2"],
+		"requiredResource":"Oil:2",
 		"uniques": [
 			"[+40]% Strength <vs Rifle> <when attacking>",
 			"[+30]% Strength <vs Assaulter> <when attacking>",
