@@ -54,7 +54,7 @@
 	    "uniques":[
 			"[+350]% Strength <vs Rifle> <when attacking>",
 			"[+320]% Strength <vs Assaulter> <when attacking>",
-			"[+200]% Strength <vs BarMachineGun> <when attacking>",
+			"[+200]% Strength <vs [BarMachineGun] units> <when attacking>",
 			"[+150]% Strength <vs FixedMachineGun> <when attacking>",
 			"[+100]% Strength <vs Mortar> <when attacking>",
 			"[-30]% Strength <vs 90mm> <when attacking>",
