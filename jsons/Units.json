@@ -422,5 +422,105 @@
 		],
 		"promotions": ["AirAttacker"],
 		"attackSound": "machinegun"
+	},
+
+
+
+
+	{
+		"name": "Submarine",
+		"unitType": "Submarine",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 325,
+		"requiredTech": "Computers",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Foreign Legion",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Triplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredResource": "Oil",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredResource": "Oil",
+		"obsoleteTech": "Dynamite",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 40,
+		"cost": 375,
+		"requiredTech": "Computers",
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
+	},
+	{
+		"name": "Marine",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Computers",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "B17",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "America",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "Computers",
+		"requiredResource": "Oil",
+		"promotions": ["Evasion", "Siege I"],
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Paratrooper",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Computers",
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	}
 ]
