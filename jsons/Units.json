@@ -185,7 +185,7 @@
 		"strength": 60,
 		"rangedStrength": 100,
 		"cost": 1300,
-		"requiredResource":["Aluminium:2"],
+		"requiredResource":["Aluminum:2"],
 		"uniques": [
 			"Can move after attacking",
 			"[+900]% Strength <vs Rifle> <when attacking>",
@@ -265,7 +265,7 @@
 		"cost": 720,
 		"requiredResource":["Iron:5"],
 		"uniques": [
-			"Must ser up to ranged attack",
+			"Must set up to ranged attack",
 			"[+1900]% Strength <vs Rifle> <when attacking>",
 			"[+1700]% Strength <vs Assaulter> <when attacking>",
 			"[+1000]% Strength <vs BarMachineGun> <when attacking>",
@@ -292,7 +292,7 @@
 		"strength": 70,
 		"rangedStrength": 70,
 		"cost": 1020,
-		"requiredResource":["Aluminium:3"],
+		"requiredResource":["Aluminum:3"],
 		"uniques": [
 			"[+1100]% Strength <vs Rifle> <when attacking>",
 			"[+1000]% Strength <vs Assaulter> <when attacking>",
