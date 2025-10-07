@@ -13,7 +13,7 @@
   },
   {
     "name":"Navy",
-    "movementType":"Land"
+    "movementType":"Water"
   },
   {
     "name":"AirForce",
