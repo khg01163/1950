@@ -70,7 +70,7 @@
 		"range": 3,
 		"strength": 24,
 		"rangedStrength": 24,
-		"cost": 600,
+		"cost": 500,
 		"promotions":["Cannon"],
 		"attackSound": "shot"
 	},
@@ -81,7 +81,7 @@
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 50,
-		"cost": 1000,
+		"cost": 900,
 		"uniques": [],
 		"promotions":["Cannon"],
 		"attackSound": "machinegun"
@@ -93,7 +93,7 @@
 		"range": 4,
 		"strength": 60,
 		"rangedStrength": 60,
-		"cost": 1200,
+		"cost": 1100,
 		"uniques": ["Can move after attacking"],
 		"promotions":["Cannon","SteelPlate"],
 		"attackSound": "tankshot"
@@ -105,11 +105,88 @@
 		"range": 4,
 		"strength": 70,
 		"rangedStrength": 70,
-		"cost": 1800,
+		"cost": 1700,
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking"],
 		"promotions":["SteelPlate","Cannon"],
 		"attackSound": "tankshot"
 	},
-	
+	{
+		"name": "Cannon",
+		"unitType": "Altillerist",
+		"movement": 2,
+		"range": 11,
+		"strength": 14,
+		"rangedStrength": 20,
+		"cost": 750,
+		"uniques": ["Must set up to ranged attack"],
+		"promotions":["Howitzer","Indirect Fire"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Artillerist",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 28,
+		"range": 14,
+		"cost": 900,
+		"uniques": ["Must ser up to ranged attack"],
+		"promotions": ["Indirect Fire", "Howitzer"],
+		"attackSound": "artillery"
+	},
+	{//105mm Howitzer
+		"name": "Panzer",
+		"unitType": "Artillerist",
+		"movement": 5,
+		"range": 11,
+		"strength": 80,
+		"rangedStrength": 80,
+		"cost": 1300,
+		"uniques": [],
+		"promotions":["Indirect Fire","SteelPlate","Howitzer"],
+		"attackSound": "tankshot"
+	},
+	{//155mm Howitzer
+		"name": "Modern Armor",
+		"unitType": "Artillerist",
+		"movement": 4,
+		"range": 14,
+		"strength": 100,
+		"rangedStrength": 100,
+		"cost": 1500,
+		"requiredResource": "Aluminum",
+		"uniques": [],
+		"promotions":["Indirect Fire","SteelPlate","Howitzer"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Navy",
+		"movement": 5,
+		"strength": 55,
+		//"rangedStrength": 200,//함포(주공)
+		"rangedStrength": 100,//127mm
+		"range": 13,
+		"cost": 4000,
+		"requiredResource": "Oil",
+		"uniques": [],
+		"promotions": ["BattleShip"],
+		"attackSound": "shipguns"
+		// Does not actually upgrade to Missile Cruisers
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Navy",
+		"movement": 6,
+		"range": 16,
+		"rangedStrength": 100,
+		"strength": 55,
+		"cost": 3000,
+		"uniques": [
+			"Withdraws before melee combat <with [80]% chance>"
+		],
+		"promotions":["LandingShip"],
+		"attackSound": "shipguns"
+	},
 ]
