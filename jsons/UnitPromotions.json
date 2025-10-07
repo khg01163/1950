@@ -98,7 +98,7 @@
       "Position I"
     ],
 		"uniques": [
-      "[+20] %Strength <vs [Walker] units> <when defending>",
+      "[+20]% Strength <vs [Walker] units> <when defending>",
     ],
 		"unitTypes": ["Walker"]
   },
@@ -106,13 +106,13 @@
     "name": "Position III",
 		"prerequisites": ["Position II"],
 		"uniques": [
-      "[+35] %Strength <vs [Artillerist] units> <when defending>",
+      "[+35]% Strength <vs [Artillerist] units> <when defending>",
     ],
 		"unitTypes": ["Walker"]
   },
 
   {
-    "name": "ShotTraing I",
+    "name": "ShotTraining I",
 		"prerequisites": [
       "Rifle", 
       "BarMachineGun", 
@@ -121,7 +121,7 @@
       "Assaulter"
     ],
 		"uniques": [
-      "[+20] %Strength <when attacking>"
+      "[+20]% Strength <when attacking>"
     ],
 		"unitTypes": ["Walker"]
   },
