@@ -1,36 +1,36 @@
 [
   {
-		"name": "Great War Infantry",//보병
+		"name": "Great War Infantry",//보병분대
 		"unitType": "Walker",
 		"movement": 3,
-    "range": 1,
+        "range": 1,
 		"strength": 20,
-    "rangedStrength": 20,
-		"cost": 300,
-    "uniques":[],
-    "promotions":["Rifle"],
+        "rangedStrength": 80,
+		"cost": 460,
+        "uniques":[],
+        "promotions":["Rifle"],
 		"attackSound": "shot"
 	},
   {
-		"name": "Infantry",//돌격병
+		"name": "Infantry",//돌격병분대
 		"unitType": "Walker",
-		"movement": 3,
-    "range": 1,
+		"movement": 4,
+        "range": 1,
 		"strength": 20,
-    "rangedStrength": 20,
-		"cost": 300,
+        "rangedStrength": 95,
+		"cost": 540,
 		"uniques":[],
-    "promotions":["Assaulter"],
+        "promotions":["Assaulter"],
 		"attackSound": "shot"
 	},
   {
 		"name": "Janissary",//박격포병
 		"unitType": "Walker",
-		"movement": 3,
-    "range": 1,
+		"movement": 2,
+        "range": 4,
 		"strength": 20,
-    "rangedStrength": 20,
-		"cost": 500,
+        "rangedStrength": 30,
+		"cost": 390,
 		"promotions": ["Mortar"],
 		"attackSound": "cannon"
 	},
@@ -40,12 +40,12 @@
 		"range": 2,
 		"movement": 3,
 		"strength": 20,
-		"rangedStrength": 20,
-		"cost": 350,
-    "uniques":[
-		"[+2] additional attacks per turn",
-	],
-    "promotions":["BarMachineGun"],
+		"rangedStrength": 22,
+		"cost": 240,
+        "uniques":[
+		    "[+2] additional attacks per turn",
+	    ],
+        "promotions":["BarMachineGun"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -54,10 +54,10 @@
 		"movement": 2,
 		"range": 10,
 		"strength": 30,
-		"rangedStrength": 30,
-		"cost": 1000,
+		"rangedStrength": 40,
+		"cost": 380,
 		"uniques": [
-			"[+4] additional attacks per turn",
+			"[+2] additional attacks per turn",
 			"Can build [Fort] improvements on tiles"
 		],
 		"promotions": ["FixedMachineGun"],
@@ -69,8 +69,8 @@
 		"movement": 3,
 		"range": 3,
 		"strength": 24,
-		"rangedStrength": 24,
-		"cost": 500,
+		"rangedStrength": 45,
+		"cost": 460,
 		"promotions":["Cannon"],
 		"attackSound": "shot"
 	},
@@ -80,8 +80,8 @@
 		"range": 4,
 		"movement": 2,
 		"strength": 50,
-		"rangedStrength": 50,
-		"cost": 900,
+		"rangedStrength": 140,
+		"cost": 740,
 		"uniques": [],
 		"promotions":["Cannon"],
 		"attackSound": "machinegun"
@@ -92,8 +92,8 @@
 		"movement": 5,
 		"range": 4,
 		"strength": 60,
-		"rangedStrength": 60,
-		"cost": 1100,
+		"rangedStrength": 100,
+		"cost": 1300,
 		"uniques": ["Can move after attacking"],
 		"promotions":["Cannon","SteelPlate"],
 		"attackSound": "tankshot"
@@ -104,8 +104,8 @@
 		"movement": 4,
 		"range": 4,
 		"strength": 70,
-		"rangedStrength": 70,
-		"cost": 1700,
+		"rangedStrength": 150,
+		"cost": 1300,
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking"],
 		"promotions":["SteelPlate","Cannon"],
@@ -117,8 +117,8 @@
 		"movement": 2,
 		"range": 11,
 		"strength": 14,
-		"rangedStrength": 20,
-		"cost": 750,
+		"rangedStrength": 70,
+		"cost": 720,
 		"uniques": ["Must set up to ranged attack"],
 		"promotions":["Howitzer","Indirect Fire"],
 		"attackSound": "cannon"
@@ -128,9 +128,9 @@
 		"unitType": "Artillerist",
 		"movement": 2,
 		"strength": 21,
-		"rangedStrength": 28,
+		"rangedStrength": 200,
 		"range": 14,
-		"cost": 900,
+		"cost": 720,
 		"uniques": ["Must ser up to ranged attack"],
 		"promotions": ["Indirect Fire", "Howitzer"],
 		"attackSound": "artillery"
@@ -140,22 +140,9 @@
 		"unitType": "Artillerist",
 		"movement": 5,
 		"range": 11,
-		"strength": 80,
-		"rangedStrength": 80,
-		"cost": 1300,
-		"uniques": [],
-		"promotions":["Indirect Fire","SteelPlate","Howitzer"],
-		"attackSound": "tankshot"
-	},
-	{//155mm Howitzer
-		"name": "Modern Armor",
-		"unitType": "Artillerist",
-		"movement": 4,
-		"range": 14,
-		"strength": 100,
-		"rangedStrength": 100,
-		"cost": 1500,
-		"requiredResource": "Aluminum",
+		"strength": 70,
+		"rangedStrength": 70,
+		"cost": 1020,
 		"uniques": [],
 		"promotions":["Indirect Fire","SteelPlate","Howitzer"],
 		"attackSound": "tankshot"
@@ -168,7 +155,7 @@
 		//"rangedStrength": 200,//함포(주공)
 		"rangedStrength": 100,//127mm
 		"range": 13,
-		"cost": 4000,
+		"cost": 4000000,
 		"requiredResource": "Oil",
 		"uniques": [],
 		"promotions": ["BattleShip"],
@@ -180,7 +167,7 @@
 		"unitType": "Navy",
 		"movement": 6,
 		"range": 16,
-		"rangedStrength": 100,
+		"rangedStrength": 450,
 		"strength": 55,
 		"cost": 3000,
 		"uniques": [
@@ -194,9 +181,9 @@
 		"unitType": "AirForce",
 		"movement": 12,
 		"strength": 45,
-		"rangedStrength": 45,
+		"rangedStrength": 80,
 		"range": 1,
-		"cost": 2300,
+		"cost": 1100,
 		"requiredResource": "Oil",
 		"uniques": [
 			"[+150]% Strength <vs [Bomber] units>", 
@@ -210,9 +197,9 @@
 		"unitType": "AirForce",
 		"movement": 10,
 		"strength": 65,
-		"rangedStrength": 65,
+		"rangedStrength": 200,
 		"range": 1,
-		"cost": 2700,
+		"cost": 1700,
 		"requiredResource": "Oil",
 		"promotions":["AirBomber"],
 		"attackSound": "bombing"
@@ -222,9 +209,9 @@
 		"unitType": "AirForce",
 		"movement": 10,
 		"strength": 45,
-		"rangedStrength": 45,
+		"rangedStrength": 130,
 		"range": 1,
-		"cost": 2300,
+		"cost": 1300,
 		"uniques": [
 			"[+150]% Strength <vs [Bomber] units>", 
 			"[+150]% Strength <vs [Helicopter] units>"
