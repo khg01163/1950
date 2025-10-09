@@ -331,7 +331,7 @@
 		"name": "Destroyer",
 		"unitType": "Navy",
 		"movement": 6,
-		"range": 35,
+		"range": 20,
 		"rangedStrength": 450,
 		"strength": 55,
 		"cost": 3000,
